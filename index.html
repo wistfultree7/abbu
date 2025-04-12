@@ -62,6 +62,14 @@
     </fieldset>
   <fieldset>
     <legend>Tell Us How We Can Contact You</legend>
+    <label for="email">Your Email:</label>
+    <input type="email" id="email" name="contactinfo" value="email" required><br>
+    <label for="house">Your Home Adress</label>
+    <input type="text" id="street" name="house" placeholder="street" required>
+    <input type="number" id="roadnumber" name="house" placeholder="road number" min="1" max="100">
+    <select name="block" required>
+      <option for="" disabled selected>Your Block</option>
+      <option value="a">Block A</option> <option value="b">Block B</option> <option value="c">Block C</option> <option value="d">Block D</option> <option value="e">Block E</option> <option value="f">Block F</option> <option value="g">Block G</option> </select>
 
     <button type="submit">Register To Be Cool</button>
   </fieldset>
