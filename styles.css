@@ -12,6 +12,6 @@ input, select {
   margin-top: 8px;
 }
 
-h1:first-of-type {
+.main-title {
   text-align: center;
 }
