@@ -14,5 +14,9 @@ input, select {
 
 .main-title {
   text-align: center;
-  color: #fffc33;
+  color: #0247a5;
+}
+
+body {
+  background-color: #444300;
 }
