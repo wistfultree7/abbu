@@ -35,13 +35,18 @@
           <option value="uae">Dubai</option>
           <option value="chor">Chor Bajar</option>
         </select><br>
-<label for="language">Languages you know:</label>
-        <select id="language" name="language[]" required multiple="multiple">
-          <option value="bn">Bangla</option>
-          <option value="en">English</option>
-          <option value="ud">Urdu</option>
-          <option value="chor">Gram</option>
-        </select><br>
+<fieldset>
+  <legend>Languages</legend>
+       <label for="bn">Bangla</label>
+  <input type="checkbox" id="bn" name="languages[]" required value="bn"><br>
+          <label for="en">English</label>
+  <input type="checkbox" id="en" name="languages[]" value="en"><br>
+          <label for="urd">Urdu</label>
+  <input type="checkbox" id="urd" name="languages[]" value="urd"><br>
+   <label for="gr">Gram</label>
+  <input type="checkbox" id="gr" name="languages[]" value="gr"><br>
+   <label for="bgl">Banglish</label>
+  <input type="checkbox" id="bgl" name="languages[]" value="banglish"><br>
       <fieldset>
         <legend>
           Additional Info
