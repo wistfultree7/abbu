@@ -17,7 +17,7 @@
       <label for="age">Age:</label>
       <input type="number" id="age" name="age" min="0" max="120" required><br>
 
-      <label>Gender</label>
+      <label>Gender:</label>
         <input type="radio" id="male" name="gender" value="male" required>
         <label for="male">Male</label>
 
@@ -41,7 +41,18 @@
           <option value="en">English</option>
           <option value="ud">Urdu</option>
           <option value="chor">Gram</option>
-        </select>
+        </select><br>
+      <fieldset>
+        <legend>
+          Additional Info
+        </legend>
+        <label>Hobbies</label>
+        <label for="music>Music:</label>
+          <input type="checkbox" id="music" name="hobbies[]" value="music" required><br>
+          <label for="readingwriting">Reading \ Writing</label>
+          <input type="checkbox" id="readingwriting" name="hobbies[]" value="readingwriting"><br>
+          <label for="mtv">Arts and Crafts</label>
+          <input type="checkbox" id="mtv" name="hobbies[]" value="artsncrafts><br>
       <button type="submit">Register</button>
     </fieldset>
   </form>
