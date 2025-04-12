@@ -19,10 +19,10 @@
       <legend>Personal info</legend>
       
       <label for="fullname">Full Name:</label>
-      <input type="text" id="fullname" name="fullname" placeholder="eg. Subha Saira" required><br>
+      <input type="text" id="fullname" name="fullname" placeholder="eg. Subha Saira" required autocomplete="name"><br>
 
       <label for="age">Age:</label>
-      <input type="number" id="age" name="age" min="0" max="120" required><br>
+      <input type="number" id="age" name="age" min="0" max="120" required autocomplete="number"><br>
 
       <label>Gender:</label>
         <input type="radio" id="male" name="gender" value="male" required>
@@ -32,7 +32,7 @@
         <label for="female">Female</label><br>
 
       <label for="phone">Phone Number:</label>
-      <input type="tel" id="phone" name="phone" placeholder="eg. 0123456789"><br>
+      <input type="tel" id="phone" name="phone" placeholder="eg. 0123456789" autocomplete="phone"><br>
 
         <label for="nationality">Nationality:</label>
         <select id="nationality" name="nationality" required>
@@ -68,10 +68,10 @@
   <fieldset>
     <legend>Tell Us How We Can Contact You</legend>
     <label for="email">Your Email:</label>
-    <input type="email" id="email" name="contactinfo" value="email" required><br>
+    <input type="email" id="email" name="contactinfo" value="email" required autocomplete="email"><br>
     <label for="house">Your Home Adress</label>
-    <input type="text" id="street" name="house" placeholder="street" required>
-    <input type="number" id="roadnumber" name="house" placeholder="road number" min="1" max="100">
+    <input type="text" id="street" name="house" placeholder="street" required autocomplete="name">
+    <input type="number" id="roadnumber" name="house" placeholder="road number" min="1" max="100" autocomplete="number">
     <select name="block" required>
       <option for="" disabled selected>Your Block</option>
       <option value="a">Block A</option> <option value="b">Block B</option> <option value="c">Block C</option> <option value="d">Block D</option> <option value="e">Block E</option> <option value="f">Block F</option> <option value="g">Block G</option> </select>
